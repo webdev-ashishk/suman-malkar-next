@@ -98,6 +98,11 @@ const NavBar = () => {
             <ul className="w-full h-screen text-3xl font-bold text-center bg-black text-white">
               <li className="mt-2">
                 <button onClick={toggleMenu}>
+                  <Link href="/">Home</Link>
+                </button>
+              </li>
+              <li className="mt-2">
+                <button onClick={toggleMenu}>
                   <Link href="/courses">courses</Link>
                 </button>
               </li>
