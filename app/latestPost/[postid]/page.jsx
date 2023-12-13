@@ -1,5 +1,6 @@
 async function getLatestPostData(id) {
-  const apiUrl = process.env.API_URL || "http://localhost:3000";
+  const apiUrl =
+    process.env.NEXT_API_URL || "https://suman-malkar-backend.vercel.app";
   const res = await fetch(`${apiUrl}/api/posts/${id}`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
