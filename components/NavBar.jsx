@@ -38,7 +38,7 @@ const NavBar = () => {
         <div className="flex  gap-4 text-5xl m-2 font-bold ">
           <snap className="">
             <button type="button" onClick={() => router.push("/")}>
-              <RiComputerFill />
+              <RiComputerFill onClick={toggleMenu} />
             </button>
           </snap>
           <div className="sm:block lg:hidden md:hidden text-3xl mt-2">
