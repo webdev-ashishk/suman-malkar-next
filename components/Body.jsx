@@ -9,7 +9,7 @@ const Body = () => {
       {/* hero section  */}
       <div className="flex justify-center items-center w-full h-96 relative bg-gradient-to-tl from-purple-900 to green-700 -z-10 ">
         <Image
-          src="/hero.jpg"
+          src="/hero22.gif"
           width={600}
           height={300}
           alt="post-image"
